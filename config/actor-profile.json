@@ -1,0 +1,122 @@
+{
+  "repository": {
+    "name": "scrape-data-from-google-maps",
+    "description": "Python, JavaScript and cURL examples to scrape data from Google Maps and export structured business listings through Apify.",
+    "homepage": "https://apify.com/datascraperes/actor-google-maps?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Google Maps Business Scraper",
+    "id": "datascraperes/actor-google-maps",
+    "storeUrl": "https://apify.com/datascraperes/actor-google-maps",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~actor-google-maps",
+    "description": "Unique Google Maps business listings by search query and geographic location, with contact, rating, category, photo, opening-hours and coordinate fields when available."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/actor-google-maps?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "locations and queries",
+      "inputLabel": "Locations and Search Queries",
+      "inputSummary": "Add one or more locations and Google Maps business search terms, then select one language, one country and a global result limit.",
+      "exportFormats": ["JSON", "CSV", "Excel", "JSONL"]
+    },
+    "api": {
+      "enabled": true,
+      "examples": ["cURL", "Python", "JavaScript"]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "scrape data from google maps",
+    "secondaryKeywords": [
+      "scrape google maps business data",
+      "google maps scraper python",
+      "google maps data extractor",
+      "export google maps results to csv"
+    ],
+    "topics": ["google-maps", "web-scraping", "business-data", "lead-generation", "apify", "python"],
+    "longTailIntents": [
+      "how to scrape data from Google Maps with Python",
+      "how to scrape Google Maps without code",
+      "Google Maps business data JSON example",
+      "export Google Maps business listings to CSV"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/scrape_google_maps.py",
+      "examples/python/batch_google_maps.py",
+      "examples/python/export_google_maps_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "$1.00 per 1,000 unique business results delivered",
+    "unit": "one unique business-result Dataset item",
+    "price": "$1.00 per 1,000 unique businesses"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/scrape-data-from-google-maps",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/scrape-data-from-google-maps",
+    "githubToActorUrl": "https://apify.com/datascraperes/actor-google-maps?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Initial Google Maps data scraping examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": ["views", "uniqueVisitors", "clones", "referrers", "popularContent"],
+    "apifySignals": ["users", "runs", "datasetItems", "revenue"],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/scrape-data-from-google-maps",
+      "scrape data from google maps",
+      "google maps scraper python"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/scrape-data-from-google-maps/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/actor-google-maps?fpr=edudata"
+  }
+}

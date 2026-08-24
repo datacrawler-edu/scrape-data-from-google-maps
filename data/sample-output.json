@@ -1,0 +1,39 @@
+[
+  {
+    "name": "HUNDRED",
+    "placeId": "ChIJE6tFsFOFQQ0Rz192-I_0ZVg",
+    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJE6tFsFOFQQ0Rz192-I_0ZVg",
+    "address": "Av. de la Victoria, 144",
+    "city": "Madrid",
+    "region": "Madrid",
+    "postalCode": "28023",
+    "countryCode": "ES",
+    "phone": "919 99 27 18",
+    "website": "https://hundredburgers.com/",
+    "avgRating": 4.7,
+    "totalReviews": null,
+    "priceRange": null,
+    "tags": [
+      "Hamburguesería"
+    ],
+    "description": "",
+    "businessPhoto": "https://lh5.googleusercontent.com/-OcG2rarGJEA/AAAAAAAAAAI/AAAAAAAAAAA/cHwLHBZ1d5c/s800-p-k-no-ns-nd/photo.jpg",
+    "photoUrls": [
+      "https://lh5.googleusercontent.com/-OcG2rarGJEA/AAAAAAAAAAI/AAAAAAAAAAA/cHwLHBZ1d5c/s800-p-k-no-ns-nd/photo.jpg"
+    ],
+    "hours": [
+      {
+        "day": "lunes",
+        "hours": "13:00–23:00",
+        "open24Hour": 13,
+        "close24Hour": 23
+      }
+    ],
+    "lat": 40.474943499999995,
+    "long": -3.8360741,
+    "discoveryQuery": "restaurants",
+    "searchLocation": "Madrid",
+    "searchCoordinates": "40.47427870242575,-3.833157095871826",
+    "scrapeTimestamp": "2026-08-24T09:39:47.009951+00:00"
+  }
+]

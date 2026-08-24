@@ -1,0 +1,11 @@
+{
+  "locations": [
+    "Madrid"
+  ],
+  "queries": [
+    "restaurants"
+  ],
+  "language": "es",
+  "countryCode": "ES",
+  "maxResults": 1
+}
